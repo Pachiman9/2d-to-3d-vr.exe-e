@@ -1,0 +1,17 @@
+paths:
+  input_dir: "data/input"
+  frames_dir: "data/frames"
+  colmap_workspace: "data/colmap_workspace"
+  meshes_dir: "data/meshes"
+  models_dir: "models"
+
+models:
+  midas: "models/midas_v21_small.pt"
+  nerf_checkpoint_dir: "models/nerf_checkpoints/"
+
+params:
+  fps_extract: 8
+  midas:
+    resize: 384
+  mesh:
+    poisson_depth: 10
